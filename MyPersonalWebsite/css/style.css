@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&family=Montserrat:wght@300&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Darker+Grotesque:wght@300&family=Montserrat:wght@300&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgba(255, 207, 189, 0.1);
+}
+
+#hero {
+  position:relative;
+}
+#hero video {
+  height:100vh;
+  width:100%;
+  background-position:absolute;
+  z-index:10;
+  object-fit:cover;
+}
+#hero .content {
+  height:100%;
+  width:100%;
+  z-index:20;
+  position:absolute;
+  top:0;
+  left:0;
+  text-align:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hero .content h1 {
+  color:	#FAEBD7;
+}
+#hero .content p {
+  font-size:18px;
+  color:#FFF;
+}
+
+h1{
+font-family: 'Darker Grotesque', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poiret One', cursive;
+font-size: 70px;
+}
+h2{
+font-family: 'Advent Pro', sans-serif;
+font-family: 'Darker Grotesque', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poiret One', cursive;
+font-size: 40px;
+color:	#FFFFCC;
+}
+
+hr{
+  border-style: dotted;
+  border-color: #FAEBD7;
+  border-width: 15px;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 6%;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+ td {
+  text-align: center;
+  padding: 10px;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.photo2{
+  float: right;
+  padding: 140px;
+  width: 300px;
+  height: 220px;
+}
+.photo1{
+  padding: 140px;
+  width: 300px;
+  height: 220px;
+}
+.diller{
+font-family: 'Raleway', sans-serif;
+}
+.idea{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin:50px auto 150px auto;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 12px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background:purple;
+  color: white;
+}
+.copyright1{
+  font-size: 17px;
+}
